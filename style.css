@@ -1,0 +1,357 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+p
+{
+    font-weight: 300;
+    color:#111;
+}
+body
+{
+    min-height: 1000px;
+}
+.banner
+{
+    position:relative;
+    width:100%;
+    min-height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    background: url("./images/spice.jpg");
+    background-size: cover;
+}
+.banner .content
+{
+   max-width: 900px;
+   text-align: center;
+}
+.banner .content h2
+{
+    font-size: 5rem;
+    color:yellow;
+}
+.banner .content p 
+{
+    font-size: 1em;
+    color:#111;
+}
+.banner .content .txt p
+{
+    color:aliceblue;
+    font-weight:bolder;
+    font-size: 2rem;
+}
+.btn 
+{
+    border-radius:20px;
+    font-size: 1rem;
+    color:#fff;
+    background-color: #ff0157;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s ;
+}
+header 
+{
+    background:#111;
+    padding: 10px 100px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+}
+header .logo
+{
+    color: #fff;
+    font-weight: 700;font-size: 2rem;
+    text-decoration: none;
+}
+header .sticky .logo
+{
+    color: #111;
+}
+.btn:hover
+{
+    letter-spacing: 6px;
+
+}
+header 
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 10000;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    transition: 0.5s;
+}
+
+header .navigation
+{
+    position: relative;
+    display: flex;
+}
+header .navigation li
+{
+    list-style:none;
+    margin-left: 30px;
+}
+header .navigation li a
+{
+text-decoration: none;
+color:#fff;
+font-weight: 300;
+}
+header .navigation li a
+{
+    color:white;
+}
+header .navigation li a:hover
+{
+    color:#ff0157;
+}
+
+section
+{
+   padding: 100px; 
+}
+.row
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.row .col50
+{
+    position:relative;
+    width:48%;
+}
+.titleText
+{
+    color: #111;
+    font-size: 300;
+    font-weight: 300;
+}
+.titleText span
+{
+color:#ff0157;
+font-weight: 700;
+font-size: 1.5em;
+}
+.row .col50 .imgBx
+{
+    position: relative;
+    width: 70%;
+    height: 300px;
+}
+
+.row .col50 .imgBx video
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.row .col50 p
+{
+    font-size:20px;
+
+}
+.title
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.menu .content
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.menu .content .box
+{
+    width: 200px;
+    margin: 20px;
+    border: 15px solid #fff;
+    border: 15px 35px rgba(0,0,0,0.08);
+}
+
+.menu .content .box .imgBx
+{
+    position: relative;
+    width: 100%;
+    height: 250px;
+}
+.menu .content .box .imgBx .img
+{
+    position: top;
+    top: 10px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.menu .content .box .imgBx .img .text
+{
+    padding: 15px 0 5px;
+}
+.menu .content .box .imgBx .img .text h3
+{   
+    text-align: center;
+    font-weight:400;
+    display: flex;
+    justify-content: space-evenly;
+    color:#111;
+}
+.expert .content
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 40px;
+}
+.expert .content .box
+{
+    width: 250px;
+    margin:15px;
+}
+.expert .content .box .imgBx
+{
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+.expert .content .box .imgBx .text
+{
+    padding: 15px 0 5px;
+}
+.expert .content .box .imgBx .text h3
+{
+    font-weight: 400;
+    color: #111;
+}
+.testimonials
+{
+    background-color:aqua;
+    background-size:cover;
+}
+.testimonials .content
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 40px ;
+}
+.testimonials .content .box
+{
+    width: 200px;
+    margin: 0px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.testimonials .content .box .imgBx
+{
+    position: relative;
+    width: 100px;
+    height: 70px;
+    margin-bottom: 20px;
+    border-radius: 80%;
+    overflow: hidden;
+}
+
+.testimonials .content .box .imgBx .img
+{
+    position: top;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.testimonials .content .box .text
+{
+    text-align: center;
+}
+.testimonials .content .box .text p
+{
+color:#666;
+font-style: italic;
+}
+.testimonials .content .box .text h3 
+{
+   margin-top: 20px;
+   color: #111;
+   font-size: 1em;
+   color: #ff0157;
+   font-weight:600; 
+}
+.contact
+{
+    background-color:cadetblue;
+    background: cover;
+}
+.contactform
+{
+    padding: 75px 50px;
+    background:antiquewhite;
+    box-shadow: 0 15px rgba(0,0,0,0.01);
+    width:400px;
+    font-weight: 50px;
+    margin-left: 40%;
+    margin-bottom: 20px;
+}
+.contactform h3 
+{
+    color: #111;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+.contactform .input
+{
+    position: relative;
+    width: 150px;
+    margin-bottom: 20px;
+}
+.contactform .inputBox input,
+.contactform .inputBox textarea 
+{
+    width: 300px;
+    border: 1px solid #555;
+    padding: 10px;
+    color: #111;
+    outline: none;
+    font-size:16px ;
+    font-weight: 300;
+    resize: none;
+}
+.location
+{
+    margin-right: 15px;
+    border-radius: ;
+}
